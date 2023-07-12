@@ -1,0 +1,46 @@
+header {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.header-left {
+  width: 500px;
+}
+.text-h1-header-left {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 0.006em;
+  margin-bottom: 32px;
+}
+.text-p-header-left{
+    width: 430px;
+    margin-bottom: 48px;
+}
+.btns-header{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+.header-numbers{
+    display: flex;
+    font-size: 2rem;
+    gap: 40px;
+}
+.text-all{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+/* .header-right{
+    background-color: rgb(79, 77, 77);
+} */
+.img-header{
+    width: 100%;
+}
+.text-all>h2{
+  font-size:32px;
+}
+.text-all>p{
+font-size: 16px;
+}

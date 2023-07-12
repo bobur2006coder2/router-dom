@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 // import { HomePage } from './pages/HomePage'
 import { NavEl } from './utils/utils'
@@ -15,6 +16,7 @@ export default function App() {
     )
    })}
   </Routes>
+   <Footer/>
     </div>
   )
 }
