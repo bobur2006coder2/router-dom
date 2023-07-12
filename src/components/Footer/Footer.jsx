@@ -38,10 +38,10 @@ export default function Footer() {
               )
             })}
           </ul>
-          <img src={theEnd} alt="" />
+          <img src={theEnd} alt="" className='img-footer'/>
         </div>
       </div>
-        <div className="footer-bottom"><h3 className="footerBottom-text">©2022 HKInvestor. All right reserved</h3></div>
+        <div className="footer-bottom"><h4 className="footerBottom-text">©2022 HKInvestor. All right reserved</h4></div>
     </footer>
   )
 }

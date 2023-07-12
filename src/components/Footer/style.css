@@ -22,16 +22,16 @@ footer {
 }
 .footerRight {
   display: flex;
-  width: 500px;
+  width: 600px;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
   /* margin-bottom: 70px; */
 }
 .list-item {
-  margin-top: 15px;
+  margin-top: 20px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
 }
 .listTwo-item {
@@ -45,4 +45,7 @@ footer {
   text-align: center;
   padding: 20px;
   background: #ee8313;
+}
+.img-footer{
+    width: 100px;
 }
