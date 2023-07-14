@@ -1,4 +1,4 @@
-import { car1, car2, car3, car4 } from "../assets";
+import { car1, car2, car3, car4, img1, img2, img3 } from "../assets";
 import { BookNowPage } from "../pages/BookNowPage";
 import { CarsPage } from "../pages/CarsPage";
 import { HomePage } from "../pages/HomePage";
@@ -111,4 +111,24 @@ export const sectionImageBoxes =[
         image_card:car4,
         id:4
     },
+]
+export const sectionCards=[
+    {
+        tex_top:"Private Charter",
+        tex_bottom:"Pinjam Mobil Rent also offers you discreet and speedy, transfers via helicopter or private planes.",
+        cardImage:img1,
+        id:1
+    },
+    {
+        tex_top:"Chauffer Driven Car Rentals",
+        tex_bottom:"Our chauffers are professional drivers who provide a discreet, reliable punctual and professional service.",
+        cardImage:img2,
+        id:2
+    },
+    {
+        tex_top:"Wedding Car Rentals",
+        tex_bottom:"If you want to celebrate your wedding in style and elegance, choose one car from our luxury collection.",
+        cardImage:img3,
+        id:3
+    }
 ]
