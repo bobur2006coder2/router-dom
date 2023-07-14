@@ -13,7 +13,7 @@ export default function Navbar() {
             <div className="boxRight">
                 <ul className="list">
                     {NavEl.map((elem) => {
-                        return (<React.Fragment> <Link to={elem.path}><li className="list_item">{elem.pagename}</li></Link></React.Fragment>)})}
+                        return (<React.Fragment key={elem.id}> <Link to={elem.path}><li className="list_item">{elem.pagename}</li></Link></React.Fragment>)})}
                 </ul>
                 <div className="btn">
                     <Button className={"orange"} name="Manage Booking" />
