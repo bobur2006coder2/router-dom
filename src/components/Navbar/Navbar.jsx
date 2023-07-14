@@ -5,7 +5,7 @@ import { NavEl } from '../../utils/utils'
 import Button from '../Buttons/Button'
 import "./style.css"
 export default function Navbar() {
-    return (
+    return ( 
         <nav>
             <div className="img_logo">
                 <img src={logo} alt="" className="logo" />

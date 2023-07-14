@@ -3,8 +3,8 @@ import logo from "../../assets/logo/logo.svg"
 import { footerLi, footerLiThree, footerLiTwo } from '../../utils/utils'
 import "./style.css"
 import theEnd from "../../assets/image/footer.png"
-export default function Footer() {
-  return (
+export default function Footer() { 
+  return ( 
     <footer>
       <div className="parentFooter">
         <div className="footer-left">

@@ -1,3 +1,4 @@
+import { car1, car2, car3, car4 } from "../assets";
 import { BookNowPage } from "../pages/BookNowPage";
 import { CarsPage } from "../pages/CarsPage";
 import { HomePage } from "../pages/HomePage";
@@ -67,7 +68,7 @@ export const footerLiTwo = [
         style:"list-item",
         id: 2,
     }
-]
+] 
 export const footerLiThree = [
     {
         name: "Category",
@@ -86,4 +87,28 @@ export const footerLiThree = [
         style:"list-item",
         id: 2,
     }
+]
+export const sectionImageBoxes =[
+    {
+        section_top_name:"Supercars",
+        section_bottom_name:"Discover",
+        image_card:car1,
+        id:1
+    },
+    {
+        section_top_name:"Sportcars",
+        section_bottom_name:"Discover",
+        image_card:car2,
+        id:2
+    },{
+        section_top_name:"SUV",
+        section_bottom_name:"Discover",
+        image_card:car3,
+        id:3
+    },{
+        section_top_name:"Supersuv",
+        section_bottom_name:"Discover",
+        image_card:car4,
+        id:4
+    },
 ]

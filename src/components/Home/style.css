@@ -3,7 +3,7 @@ header {
   margin: 0 auto;
   display: flex;
 }
-.header-left {
+.header-left { 
   width: 500px;
 }
 .text-h1-header-left {

@@ -2,7 +2,8 @@ import React from 'react'
 import Button from '../Buttons/Button'
 import "./style.css"
 import car from "../../assets/image/car.svg"
-import Footer from '../Footer/Footer'
+import Section from '../Section/Section'
+
 export default function Home() {
   return (
     <>
@@ -28,8 +29,8 @@ export default function Home() {
       </div>
       <div className="header-right"><img src={car} alt="" className='img-header'/></div>
     </header>
-  
-      <Footer/>
+ <Section/> 
+
     </>
     
   )

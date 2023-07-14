@@ -1,0 +1,87 @@
+.section-text {
+  padding-top: 180px;
+  padding-bottom: 70px;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0.006em;
+  text-align: center;
+}
+.boxTwo-card {
+  width: 370px;
+  padding-top: 60px;
+}
+.car-box {
+  width: 584px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.hover-text-top {
+  margin-left: 48px;
+  text-align: start;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.006em;
+}
+.hover-text-bottom {
+  text-align: end;
+  padding-top: 340px;
+  margin-right: 48px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+}
+.hover-car-texts {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  transform: scale(0);
+  transition: 0.4s;
+}
+.car-box:hover .hover-car-texts {
+  transform: scale(1);
+  transition: 0.4s;
+}
+
+.sectionBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sectionBoxes-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.section-text-two {
+  padding-top: 60px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0.006em;
+  text-align: left;
+}
+.text-top-card {
+  padding: 15px 0px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+  text-align: left;
+}
+
+.text-bottom-card {
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.006em;
+}
