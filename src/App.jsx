@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import NotFoundPage from './components/NotFound/NotFoundPage'
@@ -23,14 +23,17 @@ export default function App() {
       <Routes>
         {NavEl.map((elem) => {
           return (
-            <>
+         
+            <React.Fragment key={elem.id}>
+
               <Route path={elem.path} element={elem.page} />
 
-            </>
+              <Route path="*" element={<NotFoundPage />}></Route>
+              <Route path="/" element={<Navigate to={"/home"}/>}></Route>
+            </React.Fragment>
+         
           )
         })}
-        <Route path='*' element={<NotFoundPage />}></Route>
-        <Route path='/' element={<HomePage />}></Route>
       </Routes>
       <Footer />
     </div>
