@@ -25,9 +25,7 @@ export default function App() {
           return (
          
             <React.Fragment key={elem.id}>
-
               <Route path={elem.path} element={elem.page} />
-
               <Route path="*" element={<NotFoundPage />}></Route>
               <Route path="/" element={<Navigate to={"/home"}/>}></Route>
             </React.Fragment>
